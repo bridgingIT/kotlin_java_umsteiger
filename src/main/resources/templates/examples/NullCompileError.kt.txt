@@ -1,0 +1,5 @@
+var a: String = "abc"
+a = null // compilation error
+
+val name: String? = null
+println(name.length()) // compilation error

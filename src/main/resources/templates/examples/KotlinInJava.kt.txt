@@ -1,0 +1,7 @@
+// example.kt
+package demo
+
+class Foo
+
+fun bar() {
+}

@@ -1,0 +1,5 @@
+val users = loadUsers()
+for (user in users) {
+    val address = user.address
+    // do something
+}

@@ -1,0 +1,6 @@
+data class User(
+        val firstName: String,
+        val lastName: String,
+        val userName: String,
+        val eMailAddress: String,
+        val birthDate: LocalDate)

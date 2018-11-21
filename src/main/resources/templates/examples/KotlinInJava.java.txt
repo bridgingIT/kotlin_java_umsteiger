@@ -1,0 +1,3 @@
+// Java
+new demo.Foo();
+demo.ExampleKt.bar();

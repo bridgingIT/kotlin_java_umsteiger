@@ -1,0 +1,2 @@
+<pre><code class="language-kotlin"><#include "../examples/KotlinInJava.kt.txt" parse=false></code></pre>
+<pre><code class="language-java"><#include "../examples/KotlinInJava.java.txt" parse=false></code></pre>

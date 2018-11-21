@@ -1,0 +1,9 @@
+class Greeter(val name: String) {
+    fun greet() {
+        println("Hello, $name")
+    }
+}
+
+fun main(args: Array&lt;String&gt;) {
+    Greeter(args[0]).greet()
+}

@@ -1,0 +1,5 @@
+infix fun Int.plus(x: Int): Int {
+    return this + x
+}
+
+val drei = 1 plus 2

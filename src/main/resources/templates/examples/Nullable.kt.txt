@@ -1,0 +1,10 @@
+var name: String? = "Jochen"
+name = null
+
+if (name != null) {
+    print("Name: $name")
+}
+
+val optionalUserName: String? = user?.name // only evaluate if user is not null, else null
+
+val userName = user?.name ?: "Kein Name" // Elvis operator

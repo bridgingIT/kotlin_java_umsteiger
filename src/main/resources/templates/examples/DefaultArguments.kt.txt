@@ -1,0 +1,13 @@
+fun split(str: String,
+          separator: Char = ',',
+          upperCaseFirstLetter: Boolean = false) {
+    // ...
+}
+
+split("Hello,World")
+
+split("Hello;World", ';')
+
+split("hello;world", ';', true)
+
+split("hello,world", upperCaseFirstLetter = true)

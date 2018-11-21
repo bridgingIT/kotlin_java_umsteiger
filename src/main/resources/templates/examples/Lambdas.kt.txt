@@ -1,0 +1,1 @@
+val jochens = allUsers.filter { "jochen" == it.firstName }

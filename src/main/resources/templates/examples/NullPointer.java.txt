@@ -1,0 +1,11 @@
+List&lt;User&gt; users = loadUsers();
+if (users != null) {
+    for (User user : users) {
+        if (user != null) {
+            Address address = user.getAddress();
+            if (address != null) {
+                // do something
+            }
+        }
+    }
+}
